@@ -1,0 +1,19 @@
+# .gitignore
+
+# Raw data and archives
+data/raw/
+*.tar
+*.mtx.gz
+*.tsv.gz
+
+# Logs and cache
+logs/
+__pycache__/
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
