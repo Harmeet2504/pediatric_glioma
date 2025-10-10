@@ -7,7 +7,8 @@ This repository is actively maintained and updated as part of an evolving pipeli
 
 
 📁 Folder Structure
-pre><code>pediatric_glioma/├── data/│   ├── raw/           # Raw GEO files (.tar, .mtx, .tsv)│   └── processed/     # Cleaned and annotated data├── scripts/│   ├── config.py      # Centralized config for GSMs and paths│   ├── geo_downloader.py│   ├── sample_extractor.py│   └── run_pipeline.py├── notebooks/         # Exploratory analysis and visualization├── results/           # Figures, tables, and summary outputs├── logs/              # Optional logging output└── README.md</code></pre>
+
+<pre><code>pediatric_glioma/├── data/│   ├── raw/           # Raw GEO files (.tar, .mtx, .tsv)│   └── processed/     # Cleaned and annotated data├── scripts/│   ├── config.py      # Centralized config for GSMs and paths│   ├── geo_downloader.py│   ├── sample_extractor.py│   └── run_pipeline.py├── notebooks/         # Exploratory analysis and visualization├── results/           # Figures, tables, and summary outputs├── logs/              # Optional logging output└── README.md</code></pre>
 
 
 🚀 Getting Started
