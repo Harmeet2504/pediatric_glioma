@@ -5,8 +5,8 @@ This repository is actively maintained and updated as part of an evolving pipeli
 
 🚀 Getting Started
 # Run the pipeline
--git clone https://github.com/Harmeet2504/pediatric_glioma.git
--cd pediatric_glioma
--python -m scripts.run_pipeline
+-git clone https://github.com/Harmeet2504/pediatric_glioma.git <br>
+-cd pediatric_glioma  <br>
+-python -m scripts.run_pipeline  <br>
 
 
