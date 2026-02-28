@@ -1,10 +1,20 @@
 # scripts/geo_downloader.py
+"""
+GeoDownloader module
+
+Downloads the GEO tar file for the specified accession if it doesn't already exist.
+"""
+
 
 import os
 import subprocess
 from scripts.config import GEO_URL, RAW_DIR, GEO_ACCESSION
 
 class GeoDownloader:
+    """
+    Downloads the GEO tar file from NCBI GEO server.
+    """
+
     def __init__(self):
         self.tar_path = os.path.join(RAW_DIR, f"{GEO_ACCESSION}_RAW.tar")
 

@@ -4,7 +4,7 @@ import os
 import subprocess
 from scripts.config import GSM_IDS, RAW_DIR, GEO_ACCESSION
 
-print("[DEBUG] sample_extractor.py loaded")
+
 class SampleExtractor:
     def __init__(self):
         self.tar_path = os.path.abspath(os.path.join(RAW_DIR, f"{GEO_ACCESSION}_RAW.tar"))
